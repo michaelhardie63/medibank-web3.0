@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap");
+
+* html {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Open Sans", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.site-container {
+  max-width:1440px;
+  width:100%;
+  margin: 0 auto;
+}
+
+.medibank-red {
+  background-color: #dd0822;
+}
+
+.medibank-blue {
+  background-color: #007ac0;
+}
+
+.divider-space {
+  padding-left: 40px;
+  padding-right: 120px;
+}
+
+
+
+.gradient-bg-welcome {
+  background-color:#fff;
+}
+
+.gradient-bg-services {
+  background-color:#fff;
+}
+
+.gradient-bg-transactions {
+  background-color:#fff;
+}
+
+.gradient-bg-footer {
+  background-color:#fff;
+}
+
+.blue-glassmorphism {
+  background: rgb(39, 51, 89, 0.4);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+/* white glassmorphism */
+.red-glassmorphism {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 16px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.eth-card {
+  background-color:hsla(352,85%,44%,1);
+background-image:
+radial-gradient(at 39% 20%, hsla(352,93%,44%,1) 0px, transparent 50%),
+radial-gradient(at 74% 75%, hsla(352,85%,44%,1) 0px, transparent 50%),
+radial-gradient(at 72% 65%, hsla(352,93%,44%,1) 0px, transparent 50%),
+radial-gradient(at 78% 92%, hsla(352,87%,40%,1) 0px, transparent 50%),
+radial-gradient(at 9% 92%, hsla(352,93%,35%,1) 0px, transparent 50%),
+radial-gradient(at 60% 96%, hsla(350,81%,36%,1) 0px, transparent 50%),
+radial-gradient(at 60% 7%, hsla(352,74%,67%,1) 0px, transparent 50%);
+}
+
+.text-gradient {
+  background-color: #000;
+  background-image: radial-gradient(at 4% 36%, hsla(0,0%,100%,1) 0, transparent 53%), radial-gradient(at 100% 60%, rgb(0, 0, 0) 0, transparent 50%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
